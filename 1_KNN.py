@@ -48,7 +48,7 @@ for k in range(1, 20):
     knn.fit(X_train, y_train)
     y_pred = knn.predict(X_test)
     
-    accuracy_values.append(accuracy_score(y_test, y_pred))
+    accuracy_values.append(accuracy_score(y_test, y_pred) * 100)
     k_values.append(k)
 
 
