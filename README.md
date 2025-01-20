@@ -14,7 +14,7 @@ This section contains the implementation of the KNN algorithm using the breast c
 - **Test Data**: Evaluate the model's performance using accuracy score and confusion matrix.
 - **Improve Model**: Perform hyperparameter tuning by varying the value of `K` (number of neighbors) and visualize the accuracy for different `K` values.
 
-## Results
+### Results
 
 - **Initial Accuracy:** The model achieved an accuracy of approximately 95-97% with n_neighbors=3.
 
